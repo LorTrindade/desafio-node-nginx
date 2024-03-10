@@ -5,7 +5,7 @@ const mysql = require('mysql')
 
 app.get('/', (req, res) => {
     const connection = mysql.createConnection({
-        host: 'dbt',
+        host: 'db',
         user: 'root',
         password: 'root',
         database: 'nodepeople',
